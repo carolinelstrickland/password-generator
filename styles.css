@@ -7,8 +7,17 @@
     padding: 20px;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
+
 }
 
-.container {
+.col-12{
     background-color: cornflowerblue;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    padding: 10px;
+    margin-bottom: 0;   
 }
