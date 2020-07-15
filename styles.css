@@ -1,0 +1,14 @@
+.content {
+    font-family: 'Quicksand', sans-serif;
+    color: goldenrod;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+.container {
+    background-color: cornflowerblue;
+}
