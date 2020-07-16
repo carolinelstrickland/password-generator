@@ -2,22 +2,24 @@
     font-family: 'Quicksand', sans-serif;
     color: goldenrod;
     font-weight: 500;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0px;
     padding: 20px;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
-
-}
-
-.col-12{
     background-color: cornflowerblue;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
 }
 
 .navbar {
     padding: 10px;
     margin-bottom: 0;   
+}
+
+#textbox {
+    width:75%;
+}
+
+#slider {
+    color: goldenrod;
 }

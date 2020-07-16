@@ -8,28 +8,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Quicksand&display=swap" rel="stylesheet">    
-    <script src="script.js"></script>
 
 
 </head>
 <body>
-
+                    <!-- NAVBAR -->
     <nav class="navbar" style="background-color: deeppink; font-family:'Quicksand', sans-serif; color: cornflowerblue; font-weight: bolder; text-shadow: 1px 1px 2px white;">
         <a class="navbar-brand" href="#">Password Generator</a>
     </nav>
-
-             <div class="col-12">
-
-                <div class="content">
-                    <br> </br>
-                    <h4>Let's Generate Your Password!</h4>
-                    <br> </br>
+        
+                <!-- HEADER AND TEXTBOX -->
+            <div class="content">
+                <br> </br>
+                <h4>Let's Generate Your Password!</h4>
+                <br> </br>
+                <div class="textbox">
                     <input type="text" id="textbox">
-                    <br> </br>
-                    <button onclick="">Generate</button>
+                    <input type="range" min="8" max="128" id="slider">
                 </div>
-            </div>
+                <br> </br>
+                <button onclick="">Generate</button>
+                <div class="password-length"></div>
+            </div>   
 
+        
 
+    <script src="script.js"></script>
 </body>
+
 </html>
