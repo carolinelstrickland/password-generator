@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Genertor</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Quicksand&display=swap" rel="stylesheet">    
-
-
-</head>
-<body>
-                    <!-- NAVBAR -->
-    <nav class="navbar" style="background-color: deeppink; font-family:'Quicksand', sans-serif; color: cornflowerblue; font-weight: bolder; text-shadow: 1px 1px 2px white;">
-        <a class="navbar-brand" href="#">Password Generator</a>
-    </nav>
-        
-                <!-- HEADER AND TEXTBOX -->
-            <div class="content">
-                <br> </br>
-                <h4>Let's Generate Your Password!</h4>
-                <br> </br>
-                <div class="textbox">
-                    <input type="text" id="textbox">
-                    <input type="number" min="8" max="128" id="choose-length">
-                </div>
-                <br> </br>
-                <button onclick="">Generate</button>
-            </div>   
-
-        
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
